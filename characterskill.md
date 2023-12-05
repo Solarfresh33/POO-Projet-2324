@@ -4,9 +4,12 @@
 
 
 
-Teams gentils :
+                                Teams gentils :
 
-naruto :
+
+
+
+# naruto :
     attaque :                                                    energie :
 
     orbe tourbillonante                 30                          20
@@ -35,7 +38,7 @@ naruto :
 
 
 
-zoro :
+# zoro :
     attaque :                                                                                energie :
 
     demon slash                                                            30                          20
@@ -66,57 +69,167 @@ zoro :
 
 
 
-Izuku Midoriya :
+# Izuku Midoriya :
         
     attaque : 
 
-    demon slash                                                            30                          20
-    TECHNIQUE À TROIS SABRES : RENGOKU ONI ​​GIRI                            50                          25
-    TECHNIQUE À 3 SABRES SANTORYU OGI : ICHIDAI SANZEN DAISEN SEKAI        85                          35
+                                                                           30                          20
+                                                                           50                          25
+                                                                           85                          35
 
     defense :
     
-    garde par épée                                                                                     20
-    garde simple                                                                                       10
-    esquive simple                                                                                     05
+                                                                                                       20
+                                                                                                       10
+                                                                                                       05
 
 
     eveil :
 
-    Haki des rois 
+    One for all 
 
         Attaque :
 
-        TECHNIQUE À 1 SABRE : ITTORYU DAISHINKAN                           40                          30
-        Haki de l'armement                                                 65                          45
-        Esprit Démoniaque, Technique à 9 sabres : Ashura                   55                          35
+                                                                           40                          30
+                                                                           65                          45
+                                                                           55                          35
 
         defense :
 
-        Esquive simple                                                                                 45 
-        garde épée                                                                                     35 
+                                                                                                       45 
+                                                                                                       35 
+
+
+
+                
+                
+                
+                
+                
+                
+                    Vilain  : 
+# zeleph
+
+    attaque : 
+
+                                                                           30                          20
+                                                                           50                          25
+                                                                           85                          35
+
+  
+  
+    defense :
+    
+                                                                                                       20
+                                                                                                       10
+                                                                                                       05
+
+
+    eveil :
+
+    
+
+        Attaque :
+
+                                                                           40                          30
+                                                                           65                          45
+                                                                           55                          35
+
         
+        
+        
+        
+        defense :
+
+                                                                                                       45 
+                                                                                                       35 
 
 
 
 
 
+# Sukuna :
+
+    attaque : 
+
+                                                                           30                          20
+                                                                           50                          25
+                                                                           85                          35
+
+    defense :
+    
+                                                                                                       20
+                                                                                                       10
+                                                                                                       05
 
 
+    eveil :
 
-Anthony Papin — Aujourd’hui à 09:40
-perso :
+    One for all 
 
-Vilain : Zeleph
+        Attaque :
 
-erika_ljs — Aujourd’hui à 09:40
+                                                                           40                          30
+                                                                           65                          45
+                                                                           55                          35
 
-Méchant : Sukuna
+        defense :
 
-Solar — Aujourd’hui à 09:46
-Héros : Izuku Midoriya (respawn : OFA 100%) 
-Vilain : Eren JAEGER (respawn : Titan form)
+                                                                                                       45 
+                                                                                                       35 
+# Eren jaeger 
 
-Eunice — Aujourd’hui à 09:58
-Héros : Eunice
-Vilain : poupi 
+    attaque : 
+
+                                                                           30                          20
+                                                                           50                          25
+                                                                           85                          35
+
+    defense :
+    
+                                                                                                       20
+                                                                                                       10
+                                                                                                       05
+
+
+    eveil :
+
+    TITAN ASSAILLANT 
+
+        Attaque :    attaque : 
+
+                                                                           30                          20
+                                                                           50                          25
+                                                                           85                          35
+
+    defense :
+    
+                                                                                                       20
+                                                                                                       10
+                                                                                                       05
+
+
+    eveil :
+
+    One for all 
+
+        Attaque :
+
+                                                                           40                          30
+                                                                           65                          45
+                                                                           55                          35
+
+        defense :
+
+                                                                                                       45 
+                                                                                                       35 
+
+
+                                                                           40                          30
+                                                                           65                          45
+                                                                           55                          35
+
+        defense :
+
+                                                                                                       45 
+                                                                                                       35 
