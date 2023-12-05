@@ -196,12 +196,14 @@
 
     TITAN ASSAILLANT 
 
-        Attaque :    attaque : 
+    Attaque 
 
                                                                            30                          20
                                                                            50                          25
                                                                            85                          35
 
+    
+    
     defense :
     
                                                                                                        20
@@ -209,27 +211,4 @@
                                                                                                        05
 
 
-    eveil :
-
-    One for all 
-
-        Attaque :
-
-                                                                           40                          30
-                                                                           65                          45
-                                                                           55                          35
-
-        defense :
-
-                                                                                                       45 
-                                                                                                       35 
-
-
-                                                                           40                          30
-                                                                           65                          45
-                                                                           55                          35
-
-        defense :
-
-                                                                                                       45 
-                                                                                                       35 
+    
