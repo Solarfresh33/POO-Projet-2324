@@ -81,5 +81,34 @@ vilain::vilain(){
     Attaque = 0;
 }
 
+vilain::vilain(){ nom, int Vie, int Energie, int Attaque){
+    this->nom = nom;
+    this->Vie = Vie;
+    this->Energie = Energie;
+    this->Attaque = Attaque;
+}
+
+vilain::~vilain(){
+    cout << "Destruction de " << nom << endl;
+}
+
+void Vilain::afficher(){
+    cout << "Nom : " << nom << endl;
+    cout << "Vie : " << Vie << endl;
+    cout << "Energie : " << Energie << endl;
+    cout << "Attaque : " << Attaque << endl;
+}
+
+void Vilain::attaquer(Joueurs &cible){
+    cible.recevoirDegats(Attaque);
+}
+
+void Vilain ::recevoirDegats(int degats){
+    Vie -= degats;
+}
+
+bool Vilain::estVivant(){
+    return Vie > 0;
+}
 
 
