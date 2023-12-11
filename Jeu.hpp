@@ -9,7 +9,8 @@ using namespace std;
 #include <Windows.h>
 
 class Joueurs{
-private:
+protected:
+
     string nom; // Nom du personnage
     int Vie; // Nombre de points de vie du personnage
     int Energie; // Nombre de points d'energie du personnage
