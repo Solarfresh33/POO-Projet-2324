@@ -25,7 +25,7 @@ Lancer le programme main.cpp.
 -> jeu.cpp
 
 `Sombo Grâce-Eunice`  
--> 
+-> gestion des erreurs 
 
 `Lajus Erika`  
--> 
+-> jeu.cpp 

@@ -3,14 +3,15 @@
 
 using namespace std;
 
+
+
 #include <iostream>
 #include <string>
 #include <sstream>
 #include <Windows.h>
 
 class Joueurs{
-protected:
-
+private:
     string nom; // Nom du personnage
     int Vie; // Nombre de points de vie du personnage
     int Energie; // Nombre de points d'energie du personnage
