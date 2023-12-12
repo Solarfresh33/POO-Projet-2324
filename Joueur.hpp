@@ -3,46 +3,41 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 #include <cstdlib>
 #include <random>
 using namespace std;
 
 class Joueur {
 protected:
-	string name;
-	int maxhealth;
-	int health;
-	int attack;
-	int armor;
-	int speed;
-	int maxmana;
-	int mana;
+	string nom;
+	int maxvie;
+	int vie;
+	int attaque;
+	int maxenergie;
+	int energie;
 	int action;
 	bool revive = false;
 public:
-	Joueur(string n, int hp, int atk, int arm, int spe, int man);
+	Joueur(string n, int hp, int atk, int eng);
 	~Joueur();
 
-	string get_name();
-	int get_maxhealth();
-	int get_health();
-	int get_attack();
-	int get_armor();
-	int get_speed();
-	int get_maxmana();
-	int get_mana();
+	string get_nom();
+	int get_maxvie();
+	int get_vie();
+	int get_attaque();
+	int get_maxenergie();
+	int get_energie();
 	int get_action();
 
-	void set_maxhealth(int hpmax);
-	void set_health(int hp);
-	void set_attack(int atk);
-	void set_armor(int arm);
-	void set_speed(int spe);
-	void set_maxmana(int manmax);
-	void set_mana(int man);
+	void set_maxvie(int hpmax);
+	void set_vie(int hp);
+	void set_attaque(int atk);
+	void set_maxenergie(int manmax);
+	void set_energie(int eng);
 	void set_action(int act);
-	
-	int regen_mana(int pourcentage);
+
+	int regen_energie(int pourcentage);
 	void can_revive(bool rev);
 	bool has_revive();
 };

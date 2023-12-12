@@ -1,15 +1,5 @@
 #include "Gentil.hpp"
 
-Gentil::Gentil(string n, int hp, int atk, int arm, int spe, int man, int en1, int en2, int en3, string fight1, string fight2, string fight3) : Joueur(n, hp, atk, arm, spe, man);
-    Attaque = fight1;
-    Attaque = fight2;
-    Attaque = fight3;
-   energie_fight1 = perteEN1; // à voir ce que c'est
-   perteenergie_fight2 = perteEN2;
-   perteenergie_fight3 = perteEN3;
-}
-
-
 Gentil::~Gentil() {}
 
 string Gentil::get_fight1() {
@@ -37,15 +27,51 @@ int Gentil::get_degats_fight3() {
 }
 
 int Gentil::get_forceen_fight1() {
-    returnenergie_fight1;
+    return Forceen_fight1;
 }
 
 int Gentil::get_forceen_fight2() {
-    returnenergie_fight2;
+    return Forceen_fight2;
 }
 
 int Gentil::get_forceen_fight3() {
-    returnenergie_fight3;
+    return Forceen_fight3;
+}
+
+int Gentil::get_perteenergie_fight1() {
+    return perteenergie_fight1;
+}
+
+int Gentil::get_perteenergie_fight2() {
+    return perteenergie_fight2;
+}
+
+int Gentil::get_perteenergie_fight3() {
+    return perteenergie_fight3;
+}
+
+int Gentil::set_fight1() {
+    return 0;
+}
+
+int Gentil::set_fight2() {
+    return 0;
+}
+
+int Gentil::set_fight3() {
+    return 0;
+}
+
+int Gentil::set_degats_fight1(int degats) {
+    return degats;
+}
+
+int Gentil::set_degats_fight2(int degats) {
+    return degats;
+}
+
+int Gentil::set_degats_fight3(int degats) {
+    return degats;
 }
 
 int Gentil::set_forceen_fight1(int force) {
@@ -59,3 +85,16 @@ int Gentil::set_forceen_fight2(int force) {
 int Gentil::set_forceen_fight3(int force) {
     return force;
 }
+
+int Gentil::set_perteenergie_fight1(int energie) {
+    return energie;
+}
+
+int Gentil::set_perteenergie_fight2(int energie) {
+    return energie;
+}
+
+int Gentil::set_perteenergie_fight3(int energie) {
+    return energie;
+}
+

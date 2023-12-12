@@ -2,8 +2,8 @@
 
 Joueur::Joueur(string n, int hp, int Attq, int eng) {
     nom = n;
-    Vie = hp;
-    Attaque = Attq;
+    vie = hp;
+    attaque = Attq;
     energie = eng;
 }
 
@@ -15,27 +15,27 @@ string Joueur::get_nom() {
 
 
 
-int Joueur::get_Vie() {
-    return Vie;
+int Joueur::get_vie() {
+    return vie;
 }
 
-int Joueur::get_Attaque() {
-    return Attaque;
+int Joueur::get_attaque() {
+    return attaque;
 }
 
 int Joueur::get_energie() {
     return energie;
 }
 
-void Joueur::set_Vie(int hp) {
-    Vie = hp;
-    if (Vie > maxVie) { // modifier maxenergie
-        Vie = maxVie;
+void Joueur::set_vie(int hp) {
+    vie = hp;
+    if (vie > maxvie) { // modifier maxvie
+        vie = maxvie;
     }
 }
 
-void Joueur::set_Attaque(int Attq) {
-    Attaque = Attq;
+void Joueur::set_attaque(int Attq) {
+    attaque = Attq;
 }
 
 void Joueur::set_energie(int eng) {

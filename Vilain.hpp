@@ -11,32 +11,39 @@ protected:
     int damage_attack1;
     int damage_attack2;
     int damage_attack3;
-    int manacost_attack1;
-    int manacost_attack2;
-    int manacost_attack3;
+    int coutenergie1;
+    int coutenergie2;
+    int coutenergie3;
 public:
 
-    Vilain(string n, int hp, int atk, int arm, int spe, int man, int cost1, int cost2, int cost3, int cdult, string at1, string at2, string at3, string ult);
+    Vilain(string n, int hp, int atk, int enrgs, string at1, string at2, string at3, string ult);
     ~Vilain();
 
-    string get_attack1();
+    string get_attack();
     string get_attack2();
     string get_attack3();
+
 
     int get_damage_attack1();
     int get_damage_attack2();
     int get_damage_attack3();
 
-    int get_manacost_attack1();
-    int get_manacost_attack2();
-    int get_manacost_attack3();
+    int get_coutenergie1();
+    int get_coutenergie2();
+    int get_coutenergie3();
 
-    int set_attack1();
+    int set_attack();
     int set_attack2();
     int set_attack3();
 
-    int set_manacost_attack1(int mana);
-    int set_manacost_attack2(int mana);
-    int set_manacost_attack3(int mana);
+    int set_coutenergie1(int mana);
+    int set_coutenergie2(int mana);
+    int set_coutenergie3(int mana);
+
+    int set_damage_attack1(int degats);
+    int set_damage_attack2(int degats);
+    int set_damage_attack3(int degats);
+
 };
+
 #endif
