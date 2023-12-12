@@ -16,16 +16,6 @@ Lancer le programme main.cpp.
 - Isidore Maxime
 
 ## Répartion des taches 
-`Isidore Maxime`  
--> Chef de projet - Github
-
--> Joueur.hpp
-
--> Joueur.cpp
-
--> main.cpp
-
--> README.md
 
 `Papin Anthony`  
 -> Gentil.hpp
@@ -46,3 +36,14 @@ Lancer le programme main.cpp.
 -> Vilain.cpp
 
 -> main.cpp
+
+`Isidore Maxime`  
+-> Chef de projet - Github
+
+-> Joueur.hpp
+
+-> Joueur.cpp
+
+-> main.cpp
+
+-> README.md
