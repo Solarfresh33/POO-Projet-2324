@@ -15,3 +15,17 @@ Lancer le programme main.cpp.
 - Sombo Grâce-Eunice
 - Isidore Maxime
 
+## Répartion des taches 
+`Isidore Maxime`  
+-> Chef de projet - Git  
+-> class 
+-> jeu.cpp
+
+`Papin Anthony`  
+-> jeu.cpp
+
+`Sombo Grâce-Eunice`  
+-> 
+
+`Lajus Erika`  
+-> 

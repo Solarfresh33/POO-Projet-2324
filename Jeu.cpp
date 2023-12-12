@@ -2,7 +2,7 @@
 
 void Joueurs::afficher(){
     cout << "Nom : " << nom << endl;
-    cout << "Vie : " << Vie << endl;
+    cout << "Vie : " << Vie<< endl;
     cout << "Energie : " << Energie << endl;
     cout << "Attaque : " << Attaque << endl;
 }
@@ -57,7 +57,7 @@ Heros::~Heros(){
 
 void Heros::afficher(){
     cout << "Nom : " << nom << endl;
-    cout << "Vie : " << Vie << endl;
+    cout << "Vie : " << Vie<< endl;
     cout << "Energie : " << Energie << endl;
     cout << "Attaque : " << Attaque << endl;
 }
@@ -81,5 +81,34 @@ vilain::vilain(){
     Attaque = 0;
 }
 
+vilain::vilain(string nom, int Vie, int Energie, int Attaque){
+    this->nom = nom;
+    this->Vie = Vie ;
+    this->Energie = Energie;
+    this->Attaque = Attaque;
+}
+
+vilain::~vilain(){
+    cout << "Destruction de " << nom << endl;
+}
+
+void vilain::afficher(){
+    cout << "Nom : " << nom << endl;
+    cout << "Vie : " << Vie << endl;
+    cout << "Energie : " << Energie << endl;
+    cout << "Attaque : " << Attaque << endl;
+}
+
+void vilain::attaquer(Joueurs &cible){
+    cible.recevoirDegats(Attaque);
+}
+
+void vilain::recevoirDegats(int degats){
+    Vie -= degats;
+}
+
+bool vilain::estVivant(){
+    return Vie > 0;
+}
 
 
