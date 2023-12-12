@@ -207,6 +207,7 @@ int chooseGentilAttack(Gentil& h, string name) {
     }
 }
 
+
 int chooseVilainAttack(Vilain& m, string name) {
     int action;
     while (true) {
@@ -300,7 +301,6 @@ int main() {
     else if (HMchoice == 2) {
         p1c = suggestVilainChoice(p1, Gentillist, Vilainlist);
         Gentil p2c = suggestGentilChoice(p2, Gentillist, Vilainlist);
-        checkWin(p2c, p1c, p2, p1);
     }
         while (true) {
             if (p1c.get_fight1() >= p2c.get_attack()) {
@@ -314,6 +314,5 @@ int main() {
                 brutdamage = chooseGentilAttack(p2c, p2);
                 printStat(p1c);
                 brutdamage = chooseVilainAttack(p1c, p1);
-
             }
         }
