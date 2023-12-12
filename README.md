@@ -18,22 +18,31 @@ Lancer le programme main.cpp.
 ## Répartion des taches 
 `Isidore Maxime`  
 -> Chef de projet - Github
+
 -> Joueur.hpp
+
 -> Joueur.cpp
+
 -> main.cpp
+
 -> README.md
 
 `Papin Anthony`  
 -> Gentil.hpp
+
 -> Gentil.cpp
 
 `Sombo Grâce-Eunice`  
 -> gestion des erreurs
+
 -> Vilain.hpp
+
 -> Gentil.hpp
 
 
 `Lajus Erika`  
 -> Vilain.hpp 
+
 -> Vilain.cpp
+
 -> main.cpp
